@@ -1,0 +1,25 @@
+{
+	"name": "@cra-express/static-loader",
+	"version": "2.2.4",
+	"description": "Static loader",
+	"main": "lib/index.js",
+	"files": [
+		"lib"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"author": "",
+	"license": "MIT",
+	"peerDependencies": {
+		"express": "4.16.2"
+	},
+	"devDependencies": {
+		"express": "4.16.2",
+		"http-proxy-middleware": "^0.18.0"
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"compression": "^1.7.2"
+	}
+}
